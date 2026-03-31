@@ -295,7 +295,7 @@ display aodirect 0.300000
 display dof off
 display dof_fnumber 64.000000
 display dof_focaldist 0.700000
-mol new rep_ensemble_water.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol new rep_cd_ensemble_water.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
 mol delrep 0 top
 mol representation Tube 0.300000 12.000000
 mol color ColorID 6
@@ -365,12 +365,12 @@ mol clipplane center 5 1 top {0.0 0.0 0.0}
 mol clipplane color  5 1 top {0.5 0.5 0.5 }
 mol clipplane normal 5 1 top {0.0 0.0 1.0}
 mol clipplane status 5 1 top {0}
-mol rename top rep_ensemble_water.pdb
+mol rename top rep_cd_ensemble_water.pdb
 set viewpoints([molinfo top]) {{{1 0 0 -59.6197} {0 1 0 -60.78} {0 0 1 -56.5831} {0 0 0 1}} {{0.900415 0.341612 -0.269339 0} {0.391519 -0.906242 0.159433 0} {-0.189626 -0.249008 -0.949751 0} {0 0 0 1}} {{0.0264271 0 0 0} {0 0.0264271 0 0} {0 0 0.0264271 0} {0 0 0 1}} {{1 0 0 0} {0 1 0 0} {0 0 1 0} {0 0 0 1}}}
 lappend viewplist [molinfo top]
 set topmol [molinfo top]
 # done with molecule 0
-mol new /home/ander/Desktop/dev_projects/proj_cel7A_inhibition/Pereira_Martínez_Munir_2026/pdbs/rep_ensemble_glucose2.0M.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol new rep_cd_ensemble_glucose2.0M.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
 mol delrep 0 top
 mol representation Tube 0.300000 12.000000
 mol color ColorID 6
@@ -440,11 +440,11 @@ mol clipplane center 5 1 top {0.0 0.0 0.0}
 mol clipplane color  5 1 top {0.5 0.5 0.5 }
 mol clipplane normal 5 1 top {0.0 0.0 1.0}
 mol clipplane status 5 1 top {0}
-mol rename top rep_ensemble_glucose2.0M.pdb
+mol rename top rep_cd_ensemble_glucose2.0M.pdb
 set viewpoints([molinfo top]) {{{1 0 0 -59.6197} {0 1 0 -60.78} {0 0 1 -56.5831} {0 0 0 1}} {{0.900415 0.341612 -0.269339 0} {0.391519 -0.906242 0.159433 0} {-0.189626 -0.249008 -0.949751 0} {0 0 0 1}} {{0.0264271 0 0 0} {0 0.0264271 0 0} {0 0 0.0264271 0} {0 0 0 1}} {{1 0 0 0} {0 1 0 0} {0 0 1 0} {0 0 0 1}}}
 lappend viewplist [molinfo top]
 # done with molecule 1
-mol new /home/ander/Desktop/dev_projects/proj_cel7A_inhibition/Pereira_Martínez_Munir_2026/pdbs/rep_ensemble_mannose2.0M.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol new rep_cd_ensemble_mannose2.0M.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
 mol delrep 0 top
 mol representation Tube 0.300000 12.000000
 mol color ColorID 6
@@ -514,11 +514,11 @@ mol clipplane center 5 1 top {0.0 0.0 0.0}
 mol clipplane color  5 1 top {0.5 0.5 0.5 }
 mol clipplane normal 5 1 top {0.0 0.0 1.0}
 mol clipplane status 5 1 top {0}
-mol rename top rep_ensemble_mannose2.0M.pdb
+mol rename top rep_cd_ensemble_mannose2.0M.pdb
 set viewpoints([molinfo top]) {{{1 0 0 -59.6197} {0 1 0 -60.78} {0 0 1 -56.5831} {0 0 0 1}} {{0.900415 0.341612 -0.269339 0} {0.391519 -0.906242 0.159433 0} {-0.189626 -0.249008 -0.949751 0} {0 0 0 1}} {{0.0264271 0 0 0} {0 0.0264271 0 0} {0 0 0.0264271 0} {0 0 0 1}} {{1 0 0 0} {0 1 0 0} {0 0 1 0} {0 0 0 1}}}
 lappend viewplist [molinfo top]
 # done with molecule 2
-mol new /home/ander/Desktop/dev_projects/proj_cel7A_inhibition/Pereira_Martínez_Munir_2026/pdbs/rep_ensemble_xylose2.0M.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol new rep_cd_ensemble_xylose2.0M.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
 mol delrep 0 top
 mol representation Tube 0.300000 12.000000
 mol color ColorID 6
@@ -588,7 +588,7 @@ mol clipplane center 5 1 top {0.0 0.0 0.0}
 mol clipplane color  5 1 top {0.5 0.5 0.5 }
 mol clipplane normal 5 1 top {0.0 0.0 1.0}
 mol clipplane status 5 1 top {0}
-mol rename top rep_ensemble_xylose2.0M.pdb
+mol rename top rep_cd_ensemble_xylose2.0M.pdb
 set viewpoints([molinfo top]) {{{1 0 0 -59.6197} {0 1 0 -60.78} {0 0 1 -56.5831} {0 0 0 1}} {{0.900415 0.341612 -0.269339 0} {0.391519 -0.906242 0.159433 0} {-0.189626 -0.249008 -0.949751 0} {0 0 0 1}} {{0.0264271 0 0 0} {0 0.0264271 0 0} {0 0 0.0264271 0} {0 0 0 1}} {{1 0 0 0} {0 1 0 0} {0 0 1 0} {0 0 0 1}}}
 lappend viewplist [molinfo top]
 # done with molecule 3
