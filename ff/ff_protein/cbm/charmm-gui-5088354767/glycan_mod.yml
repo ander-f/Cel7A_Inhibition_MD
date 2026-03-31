@@ -1,0 +1,13 @@
+---
+- 
+  chain: none
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":"1"}'
+  grs: 1 AMAN
+  segid: CARA
+- 
+  chain: none
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":"3"}'
+  grs: 1 AMAN
+  segid: CARB
